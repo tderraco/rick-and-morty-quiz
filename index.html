@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="container"></div>
+    <section class="timer">
+
+    </section>
+    <section class="Quiz-Challenge">
+        <p>This is a quiz to take to challenge your knowledge of Rick And Morty.</p>
+        <button id="startQuiz">Start Quiz</button>
+    </section>
+
+    <section class="first-Question hide">
+        <div id="question-1-container" class="hide"></div>
+        <div id="question">Question 1 : What is Rick's last name?</div>
+        <div id="answerBtn" class="button-grid"></div>
+        <button onClick="selectAnswer(1,1)" class="answer1">James</button>
+        <button onClick="selectAnswer(1,2)" class="answer2">Douglas</button>
+        <button onClick="selectAnswer(1,3)" class="answer3">Sanchez</button>
+        <button onClick="selectAnswer(1,4)" class="answer4">Diaz</button>
+        <div class="controls"></div>
+        <button id="startBtn" class="startBtn1">Start</button>
+        <button id="nextBtn" class="nextBtn hide">Next</button>
+
+        
+    </section>
+    
+    <section class="second-Question hide">
+        <div id="question-2-container" class="hide"></div>
+        <div id="question">Question 2: Who is Rick's half bird half human bestfriend?</div>
+        <div id="answerBtn" class="button-grid"></div>
+        <button class="answer1">Parrot Guy</button>
+        <button class="answer2">Bird Person</button>
+        <button class="answer3">Avian Warrior</button>
+        <button class="answer4">Coco Beware</button>
+        <div class="controls"></div>
+        <button id="startBtn" class="startBtn1">Start</button>
+        <button id="nextBtn" class="nextBtn ">Next</button>
+
+    </section>
+
+    <section class="third-Question hide">
+        <div id="question-3-container" class="hide"></div>
+        <div id="question">Question 3: What does "Wubba lubba dub dub." mean?</div>
+        <div id="answerBtn" class="button-grid"></div>
+        <button class="answer1">Let's drink!</button>
+        <button class="answer2">I am in great pain. Please help me</button>
+        <button class="answer3">You are very attractive.</button>
+        <button class="answer4">My mom wants me home by 9pm.</button>
+        <div class="controls"></div>
+        <button id="startBtn" class="startBtn1">Start</button>
+        <button id="nextBtn" class="nextBtn hide">Next</button>
+
+    </section>
+
+
+    <section class="textBox hide">section
+        <input id="Name">
+        <button class="Enter">Enter</button>
+
+    </section>
+
+    <section class="scorePage hide">
+        <div id="intialsScore">32</div>
+        <button class="goBack">Go Back</button>
+        <button class="clearHighscore">Clear Highscore</button>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
