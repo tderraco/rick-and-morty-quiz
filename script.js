@@ -15,6 +15,7 @@ startBtn.addEventListener("click",function(){
     setInterval(countDown,1000)
 })
 
+
 // Timer Starts
 function countDown() {
     timer.textContent = secondsLeft;
