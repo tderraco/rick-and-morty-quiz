@@ -1,11 +1,36 @@
-# rick-and-morty-quiz
-quiz app
+ # The Rick and Morty Quiz                [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Description
+  This is my first quiz app utilizing Web API's. I have a created a quiz centered around one of my favorite shows called Rick and Morty. Users are presented with a Intro page to enter into the quiz followed by three questions. Each question gives the user 10 seconds to answer each question and recieve a confirmation whether it is the correct or wrong answer. 
+  # Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Licensing](#licensing)
+  * [Contributors](#contributors)
+  * [Test](#test)
+  * [Questions](#questions)
+ 
+  # Installation
+  'The following must be installed to run this app
+  Javascript',
 
-Description:
-This is my first quiz app utilizing Web API's. I have a created a quiz centered around one of my favorite shows called Rick and Morty. Users are presented with a Intro page to enter into the quiz followed by three questions. Each question gives the user 10 seconds to answer each question and recieve a confirmation whether it is the correct or wrong answer. Each question is worth 5 points for a total of 15 points. A score is generated at the end and the player enter their initials and their score to the score board.
+  # Usage
+  User click on the start button and answers a series of question about the TV show Rick and Morty.,
 
-Some of the technologies I used were the use of Event Listeners, if statements, query selectors, functions, and hide and show elements. I found this assignment very challenging. It was tought to get everything working in time. The hide and show elements were the toughtest for me and I was not able to complete them. It took me a long time finding different patterns to use. 
+  # Licensing 
+  This project is licensed under the MIT license.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-https://tderraco.github.io/rick-and-morty-quiz/
+  # Contributors
+  n/a,
 
-![alt text](screenshots/rick and morty screenshot.png "website screen shot")
+  # Test
+  N/A,
+
+  
+  # Questions
+  If you have any questions about this repository you can contact me at
+  tderraco https://github.com/tderraco or email me at tderraco@gmail.com.
+
+  https://tderraco.github.io/rick-and-morty-quiz/
+
+  <img width="1440" alt="Screen Shot 2022-06-08 at 11 34 08 PM" src="https://user-images.githubusercontent.com/99711631/172781071-34acfb50-75b4-46bc-91bc-b48c25f9e3c8.png">
