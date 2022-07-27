@@ -1,24 +1,28 @@
-
-
 body {
-    padding:0%;
-    margin:0%;
+    padding: 0%;
+    margin: 0%;
     display: flex;
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url("assets/RIck and Morty background.png");
+    background-size: cover;
 }
+
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
 }
+
 .hide {
     display: none;
 }
 
-p {
-  font-size: x-large;
-  font-family: 'Creepster', cursive;
- 
+p,
+#question,
+h1{
+    font-size: xx-large;
+    font-family: 'Creepster', cursive;
+
 }
