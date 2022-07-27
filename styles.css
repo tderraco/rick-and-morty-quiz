@@ -19,10 +19,37 @@ body {
     display: none;
 }
 
+.timer,
+.textBox {
+    font-size: 40px;
+    font-family: 'Creepster', cursive;
+    color: red;
+    text-indent: 15px;
+
+}
+
 p,
-#question,
-h1{
+#question {
     font-size: xx-large;
     font-family: 'Creepster', cursive;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Creepster', cursive;
+
+}
+
+#startQuiz,
+.answer,
+#initialsScores,
+.goBack,
+.clearHighscore {
+    font-family: 'Bangers', cursive;
+    font-size: larger;
+    color: white;
+    background-color: black;
+
 
 }
